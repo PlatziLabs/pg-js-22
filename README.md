@@ -1,15 +1,15 @@
-En este desafío tienes un array de números, usando la función map debes retornar todos los números del array multiplicados por dos.
+En este desafío tienes un array de números el cual va a tener tanto números negativos como positivos y el reto es usando la función sort de JavaScript ordenarlos de mayor a menor.
 
 La solución debería tener un input y output como los siguientes:
 
 Input
 
 ```js
-solution([2, 4, 5, 6, 8]);
+sortDesc([3, 1, 11, 5, 2, 7, 8]);
 ```
 
 Output
 
-```sh
-[4,8,10,12, 16]
+```js
+[ 11, 8, 7, 5, 3, 2, 1 ]
 ```
