@@ -8,7 +8,7 @@ describe("tests", () => {
   });
 
   it("should return [-3, -2, -1, 1]", () => {
-    const array = [1,-1,-2,-3];
+    const array = [1,-3,-1,-2];
     const rta = sortDesc(array);
     expect(rta).toEqual([1, -1, -2, -3]);
   });
